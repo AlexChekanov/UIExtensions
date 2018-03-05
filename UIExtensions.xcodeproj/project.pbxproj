@@ -9,7 +9,15 @@
 /* Begin PBXBuildFile section */
 		3BA13A22204DE5E300213EB6 /* UIExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA13A18204DE5E200213EB6 /* UIExtensions.framework */; };
 		3BA13A27204DE5E300213EB6 /* UIExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A26204DE5E300213EB6 /* UIExtensionsTests.swift */; };
-		3BA13A29204DE5E300213EB6 /* UIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA13A1B204DE5E300213EB6 /* UIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A32204DE62700213EB6 /* UIView+fromNib.swift */; };
+		3BA13A36204DE69E00213EB6 /* UIView+layoutAttach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A35204DE69E00213EB6 /* UIView+layoutAttach.swift */; };
+		3BA13A38204DE6D800213EB6 /* UIView+informSizeUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */; };
+		3BA13A3A204DE71300213EB6 /* UITableView+updateAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A39204DE71300213EB6 /* UITableView+updateAnimated.swift */; };
+		3BA13A3D204DE74F00213EB6 /* UITableView+scrollToRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A3C204DE74F00213EB6 /* UITableView+scrollToRect.swift */; };
+		3BA13A3F204DE79100213EB6 /* UIView+checkNotificationAddressee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A3E204DE79100213EB6 /* UIView+checkNotificationAddressee.swift */; };
+		3BA13A41204DE7C200213EB6 /* UITextView+sendScrollRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A40204DE7C200213EB6 /* UITextView+sendScrollRequest.swift */; };
+		3BA13A53204DEBCC00213EB6 /* UIResponder+next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A52204DEBCC00213EB6 /* UIResponder+next.swift */; };
+		3BA13A56204DEC1D00213EB6 /* UITableViewCell+tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A55204DEC1D00213EB6 /* UITableViewCell+tableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +32,19 @@
 
 /* Begin PBXFileReference section */
 		3BA13A18204DE5E200213EB6 /* UIExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA13A1B204DE5E300213EB6 /* UIExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIExtensions.h; sourceTree = "<group>"; };
 		3BA13A1C204DE5E300213EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA13A21204DE5E300213EB6 /* UIExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA13A26204DE5E300213EB6 /* UIExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensionsTests.swift; sourceTree = "<group>"; };
 		3BA13A28204DE5E300213EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA13A32204DE62700213EB6 /* UIView+fromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+fromNib.swift"; sourceTree = "<group>"; };
+		3BA13A35204DE69E00213EB6 /* UIView+layoutAttach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+layoutAttach.swift"; sourceTree = "<group>"; };
+		3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+informSizeUpdated.swift"; sourceTree = "<group>"; };
+		3BA13A39204DE71300213EB6 /* UITableView+updateAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+updateAnimated.swift"; sourceTree = "<group>"; };
+		3BA13A3C204DE74F00213EB6 /* UITableView+scrollToRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+scrollToRect.swift"; sourceTree = "<group>"; };
+		3BA13A3E204DE79100213EB6 /* UIView+checkNotificationAddressee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+checkNotificationAddressee.swift"; sourceTree = "<group>"; };
+		3BA13A40204DE7C200213EB6 /* UITextView+sendScrollRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+sendScrollRequest.swift"; sourceTree = "<group>"; };
+		3BA13A52204DEBCC00213EB6 /* UIResponder+next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+next.swift"; sourceTree = "<group>"; };
+		3BA13A55204DEC1D00213EB6 /* UITableViewCell+tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+tableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +87,12 @@
 		3BA13A1A204DE5E200213EB6 /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				3BA13A1B204DE5E300213EB6 /* UIExtensions.h */,
+				3BA13A42204DE7EB00213EB6 /* UITextView */,
+				3BA13A3B204DE71700213EB6 /* UITableView */,
+				3BA13A34204DE62C00213EB6 /* UIView */,
 				3BA13A1C204DE5E300213EB6 /* Info.plist */,
+				3BA13A57204DEC3400213EB6 /* UITableViewCell */,
+				3BA13A54204DEBDD00213EB6 /* UIResponder */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -86,6 +106,51 @@
 			path = UIExtensionsTests;
 			sourceTree = "<group>";
 		};
+		3BA13A34204DE62C00213EB6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3BA13A32204DE62700213EB6 /* UIView+fromNib.swift */,
+				3BA13A35204DE69E00213EB6 /* UIView+layoutAttach.swift */,
+				3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */,
+				3BA13A3E204DE79100213EB6 /* UIView+checkNotificationAddressee.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3BA13A3B204DE71700213EB6 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				3BA13A39204DE71300213EB6 /* UITableView+updateAnimated.swift */,
+				3BA13A3C204DE74F00213EB6 /* UITableView+scrollToRect.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		3BA13A42204DE7EB00213EB6 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				3BA13A40204DE7C200213EB6 /* UITextView+sendScrollRequest.swift */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		3BA13A54204DEBDD00213EB6 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				3BA13A52204DEBCC00213EB6 /* UIResponder+next.swift */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		3BA13A57204DEC3400213EB6 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3BA13A55204DEC1D00213EB6 /* UITableViewCell+tableView.swift */,
+			);
+			name = UITableViewCell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +158,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA13A29204DE5E300213EB6 /* UIExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +212,7 @@
 				TargetAttributes = {
 					3BA13A17204DE5E200213EB6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					3BA13A20204DE5E300213EB6 = {
@@ -196,6 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA13A3D204DE74F00213EB6 /* UITableView+scrollToRect.swift in Sources */,
+				3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */,
+				3BA13A36204DE69E00213EB6 /* UIView+layoutAttach.swift in Sources */,
+				3BA13A53204DEBCC00213EB6 /* UIResponder+next.swift in Sources */,
+				3BA13A3F204DE79100213EB6 /* UIView+checkNotificationAddressee.swift in Sources */,
+				3BA13A56204DEC1D00213EB6 /* UITableViewCell+tableView.swift in Sources */,
+				3BA13A3A204DE71300213EB6 /* UITableView+updateAnimated.swift in Sources */,
+				3BA13A38204DE6D800213EB6 /* UIView+informSizeUpdated.swift in Sources */,
+				3BA13A41204DE7C200213EB6 /* UITextView+sendScrollRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +408,7 @@
 		3BA13A2D204DE5E300213EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tipsandtricks.UIExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +431,7 @@
 		3BA13A2E204DE5E300213EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +453,7 @@
 		3BA13A30204DE5E300213EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH6R8SSABL;
 				INFOPLIST_FILE = UIExtensionsTests/Info.plist;
@@ -390,6 +468,7 @@
 		3BA13A31204DE5E300213EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH6R8SSABL;
 				INFOPLIST_FILE = UIExtensionsTests/Info.plist;
