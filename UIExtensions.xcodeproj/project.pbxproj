@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B426D6520509906008CA989 /* UISizeUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */; };
 		3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */; };
+		3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */; };
 		3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB16204DF55600812BAE /* UIImage+base64.swift */; };
 		3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB17204DF55700812BAE /* UIImage+color.swift */; };
 		3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB18204DF55700812BAE /* UIImage+alpha.swift */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISizeUpdateDelegate.swift; sourceTree = "<group>"; };
 		3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollRequestDelegate.swift; sourceTree = "<group>"; };
+		3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardResizeDelegate.swift; sourceTree = "<group>"; };
 		3B87BB16204DF55600812BAE /* UIImage+base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+base64.swift"; sourceTree = "<group>"; };
 		3B87BB17204DF55700812BAE /* UIImage+color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+color.swift"; sourceTree = "<group>"; };
 		3B87BB18204DF55700812BAE /* UIImage+alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+alpha.swift"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */,
+				3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */,
 				3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */,
 			);
 			path = Protocols;
@@ -415,6 +418,7 @@
 				3B87BB44204DF76300812BAE /* UIStoryboard+extensions.swift in Sources */,
 				3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */,
 				3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */,
+				3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */,
 				3B87BB22204DF5E500812BAE /* UIColor+interpolate.swift in Sources */,
 				3B87BB2F204DF6B300812BAE /* UIView+cornerRadius.swift in Sources */,
 				3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */,
