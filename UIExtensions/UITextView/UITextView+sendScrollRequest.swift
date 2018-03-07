@@ -13,7 +13,7 @@ public extension UITextView {
             // Create some space around
             caret = caret.offsetBy(dx: 0, dy: -caret.size.height/8)
             
-            let scrollRequest = ScrollRequest(view: self, rect: caret, animated: false)
+            let scrollRequest = ScrollRequest(rect: caret, view: self,  animated: false)
             
             var userInfo: [AnyHashable: Any] = [:]
             
@@ -33,11 +33,4 @@ public extension UITextView {
 public extension Notification.Name {
     
     static let scrollRequest = Notification.Name("UIViewScrollRequested")
-}
-
-public struct ScrollRequest {
-    
-    public var view: UIView
-    public var rect: CGRect
-    public var animated: Bool
 }

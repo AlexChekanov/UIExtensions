@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B426D6520509906008CA989 /* UISizeUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */; };
+		3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */; };
 		3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB16204DF55600812BAE /* UIImage+base64.swift */; };
 		3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB17204DF55700812BAE /* UIImage+color.swift */; };
 		3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB18204DF55700812BAE /* UIImage+alpha.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISizeUpdateDelegate.swift; sourceTree = "<group>"; };
+		3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollRequestDelegate.swift; sourceTree = "<group>"; };
 		3B87BB16204DF55600812BAE /* UIImage+base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+base64.swift"; sourceTree = "<group>"; };
 		3B87BB17204DF55700812BAE /* UIImage+color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+color.swift"; sourceTree = "<group>"; };
 		3B87BB18204DF55700812BAE /* UIImage+alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+alpha.swift"; sourceTree = "<group>"; };
@@ -110,6 +114,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B426D582050981B008CA989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B426D672050990D008CA989 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */,
+				3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		3B87BAEE204DF45600812BAE /* UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +215,7 @@
 				3BA13A1A204DE5E200213EB6 /* UIExtensions */,
 				3BA13A25204DE5E300213EB6 /* UIExtensionsTests */,
 				3BA13A19204DE5E200213EB6 /* Products */,
+				3B426D582050981B008CA989 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,6 +245,7 @@
 				3B87BB49204DF82D00812BAE /* UITableViewController */,
 				3BA13A42204DE7EB00213EB6 /* UITextView */,
 				3BA13A34204DE62C00213EB6 /* UIView */,
+				3B426D672050990D008CA989 /* Protocols */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -391,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B87BB44204DF76300812BAE /* UIStoryboard+extensions.swift in Sources */,
+				3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */,
 				3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */,
 				3B87BB22204DF5E500812BAE /* UIColor+interpolate.swift in Sources */,
 				3B87BB2F204DF6B300812BAE /* UIView+cornerRadius.swift in Sources */,
@@ -402,6 +425,7 @@
 				3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */,
 				3B87BB3A204DF70900812BAE /* UINavigationBar+barBackground.swift in Sources */,
 				3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */,
+				3B426D6520509906008CA989 /* UISizeUpdateDelegate.swift in Sources */,
 				3B87BB32204DF6B300812BAE /* UIView+asImage.swift in Sources */,
 				3BA13A36204DE69E00213EB6 /* UIView+layoutAttach.swift in Sources */,
 				3B87BB45204DF76300812BAE /* UITableViewController+scroll.swift in Sources */,
