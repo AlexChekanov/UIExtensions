@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B07A90F2059E20500502DD5 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A90E2059E20500502DD5 /* UIAlertController.swift */; };
+		3B07A9122059E25000502DD5 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A9112059E25000502DD5 /* UIPickerView.swift */; };
 		3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */; };
 		3B1D0FE42051BD98006345C9 /* UITextUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */; };
 		3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B07A90E2059E20500502DD5 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		3B07A9112059E25000502DD5 /* UIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerView.swift; sourceTree = "<group>"; };
 		3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+alignVertically.swift"; sourceTree = "<group>"; };
 		3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextUpdateDelegate.swift; sourceTree = "<group>"; };
 		3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+enumPreffered.swift"; sourceTree = "<group>"; };
@@ -129,6 +133,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B07A9102059E20E00502DD5 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3B07A90E2059E20500502DD5 /* UIAlertController.swift */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		3B07A9132059E25A00502DD5 /* UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3B07A9112059E25000502DD5 /* UIPickerView.swift */,
+			);
+			path = UIPickerView;
+			sourceTree = "<group>";
+		};
 		3B177E5B20532A2F00C6835B /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				3BA13A1C204DE5E300213EB6 /* Info.plist */,
+				3B07A9132059E25A00502DD5 /* UIPickerView */,
+				3B07A9102059E20E00502DD5 /* UIAlertController */,
 				3B426D672050990D008CA989 /* Protocols */,
 				3B177E5B20532A2F00C6835B /* UIButton */,
 				3B87BB25204DF5EC00812BAE /* UIColor */,
@@ -454,6 +476,7 @@
 				3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */,
 				3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */,
 				3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */,
+				3B07A90F2059E20500502DD5 /* UIAlertController.swift in Sources */,
 				3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */,
 				3B87BB22204DF5E500812BAE /* UIColor+interpolate.swift in Sources */,
 				3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */,
@@ -468,6 +491,7 @@
 				3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */,
 				3B426D6520509906008CA989 /* UIResizeRequestDelegate.swift in Sources */,
 				3B87BB32204DF6B300812BAE /* UIView+asImage.swift in Sources */,
+				3B07A9122059E25000502DD5 /* UIPickerView.swift in Sources */,
 				3BA13A36204DE69E00213EB6 /* UIView+layoutAttach.swift in Sources */,
 				3B87BB45204DF76300812BAE /* UITableViewController+scroll.swift in Sources */,
 				3BA13A53204DEBCC00213EB6 /* UIResponder+next.swift in Sources */,
