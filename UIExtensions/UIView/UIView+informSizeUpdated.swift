@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIView {
     
-    func informSizeWasUpdated(object: Any?, receivers: [UIView]? = nil, identifiers: [String]? = nil) {
+    func sendResizeRequest(object: Any?, receivers: [UIView]? = nil, identifiers: [String]? = nil) {
         
         var userInfo: [AnyHashable: Any] = [:]
         
@@ -11,7 +11,7 @@ public extension UIView {
             userInfo["identifiers"] = identifiers
         }
         
-        let notification =  Notification(name: .sizeUpdateRequest, object: object, userInfo: userInfo)
+        let notification =  Notification(name: .resizeRequest, object: object, userInfo: userInfo)
         
         NotificationCenter.default.post(notification)
     }
@@ -21,6 +21,6 @@ public extension Notification.Name {
     
     static let viewWillTransition = Notification.Name("UIViewWillTransition")
     
-    static let sizeUpdateRequest = Notification.Name("UIViewSizeUpdateRequested")
+    static let resizeRequest = Notification.Name("UIViewSizeUpdateRequested")
 }
 

@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B426D6520509906008CA989 /* UISizeUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */; };
+		3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */; };
+		3B1D0FE42051BD98006345C9 /* UITextUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */; };
+		3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */; };
+		3B32E9132055FDF900BD25E7 /* GeneralExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */; };
+		3B426D6520509906008CA989 /* UIResizeRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UIResizeRequestDelegate.swift */; };
 		3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */; };
 		3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */; };
+		3B5E17652055F5B000682FC5 /* UIViewl+shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E17642055F5B000682FC5 /* UIViewl+shake.swift */; };
+		3B5E176F2055F6D100682FC5 /* UILabel+flexibleWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E176E2055F6D100682FC5 /* UILabel+flexibleWidth.swift */; };
 		3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB16204DF55600812BAE /* UIImage+base64.swift */; };
 		3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB17204DF55700812BAE /* UIImage+color.swift */; };
 		3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB18204DF55700812BAE /* UIImage+alpha.swift */; };
@@ -56,9 +62,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISizeUpdateDelegate.swift; sourceTree = "<group>"; };
+		3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+alignVertically.swift"; sourceTree = "<group>"; };
+		3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextUpdateDelegate.swift; sourceTree = "<group>"; };
+		3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+enumPreffered.swift"; sourceTree = "<group>"; };
+		3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeneralExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B426D6320509905008CA989 /* UIResizeRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResizeRequestDelegate.swift; sourceTree = "<group>"; };
 		3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollRequestDelegate.swift; sourceTree = "<group>"; };
 		3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardResizeDelegate.swift; sourceTree = "<group>"; };
+		3B5E17642055F5B000682FC5 /* UIViewl+shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewl+shake.swift"; sourceTree = "<group>"; };
+		3B5E176E2055F6D100682FC5 /* UILabel+flexibleWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+flexibleWidth.swift"; sourceTree = "<group>"; };
 		3B87BB16204DF55600812BAE /* UIImage+base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+base64.swift"; sourceTree = "<group>"; };
 		3B87BB17204DF55700812BAE /* UIImage+color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+color.swift"; sourceTree = "<group>"; };
 		3B87BB18204DF55700812BAE /* UIImage+alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+alpha.swift"; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B32E9132055FDF900BD25E7 /* GeneralExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,9 +129,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B177E5B20532A2F00C6835B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		3B177E5C20532A3700C6835B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
 		3B426D582050981B008CA989 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +158,8 @@
 			children = (
 				3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */,
 				3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */,
-				3B426D6320509905008CA989 /* UISizeUpdateDelegate.swift */,
+				3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */,
+				3B426D6320509905008CA989 /* UIResizeRequestDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -184,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				3B87BB3F204DF76200812BAE /* UILabel+CATextLayer.swift */,
+				3B5E176E2055F6D100682FC5 /* UILabel+flexibleWidth.swift */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -235,7 +267,10 @@
 			isa = PBXGroup;
 			children = (
 				3BA13A1C204DE5E300213EB6 /* Info.plist */,
+				3B426D672050990D008CA989 /* Protocols */,
+				3B177E5B20532A2F00C6835B /* UIButton */,
 				3B87BB25204DF5EC00812BAE /* UIColor */,
+				3B177E5C20532A3700C6835B /* UIFont */,
 				3B87BB1C204DF56000812BAE /* UIImage */,
 				3B87BB46204DF76600812BAE /* UILabel */,
 				3B87BB3C204DF70E00812BAE /* UINavigationBar */,
@@ -248,7 +283,6 @@
 				3B87BB49204DF82D00812BAE /* UITableViewController */,
 				3BA13A42204DE7EB00213EB6 /* UITextView */,
 				3BA13A34204DE62C00213EB6 /* UIView */,
-				3B426D672050990D008CA989 /* Protocols */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -275,6 +309,7 @@
 				3B87BB26204DF6B200812BAE /* UIView+globalPosition.swift */,
 				3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */,
 				3BA13A35204DE69E00213EB6 /* UIView+layoutAttach.swift */,
+				3B5E17642055F5B000682FC5 /* UIViewl+shake.swift */,
 				3B87BB29204DF6B300812BAE /* UIViewController+alerts.swift */,
 			);
 			path = UIView;
@@ -416,10 +451,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B87BB44204DF76300812BAE /* UIStoryboard+extensions.swift in Sources */,
+				3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */,
 				3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */,
 				3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */,
 				3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */,
 				3B87BB22204DF5E500812BAE /* UIColor+interpolate.swift in Sources */,
+				3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */,
 				3B87BB2F204DF6B300812BAE /* UIView+cornerRadius.swift in Sources */,
 				3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */,
 				3B87BB21204DF5E500812BAE /* UIColor+adjust.swift in Sources */,
@@ -429,7 +466,7 @@
 				3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */,
 				3B87BB3A204DF70900812BAE /* UINavigationBar+barBackground.swift in Sources */,
 				3B87BB1B204DF55700812BAE /* UIImage+alpha.swift in Sources */,
-				3B426D6520509906008CA989 /* UISizeUpdateDelegate.swift in Sources */,
+				3B426D6520509906008CA989 /* UIResizeRequestDelegate.swift in Sources */,
 				3B87BB32204DF6B300812BAE /* UIView+asImage.swift in Sources */,
 				3BA13A36204DE69E00213EB6 /* UIView+layoutAttach.swift in Sources */,
 				3B87BB45204DF76300812BAE /* UITableViewController+scroll.swift in Sources */,
@@ -441,9 +478,12 @@
 				3B87BB2D204DF6B300812BAE /* UIView+globalPosition.swift in Sources */,
 				3B87BB43204DF76300812BAE /* UILabel+CATextLayer.swift in Sources */,
 				3BA13A56204DEC1D00213EB6 /* UITableViewCell+tableView.swift in Sources */,
+				3B5E17652055F5B000682FC5 /* UIViewl+shake.swift in Sources */,
 				3B87BB38204DF70900812BAE /* UINavigationBar+effectView.swift in Sources */,
 				3BA13A3A204DE71300213EB6 /* UITableView+updateAnimated.swift in Sources */,
+				3B1D0FE42051BD98006345C9 /* UITextUpdateDelegate.swift in Sources */,
 				3B87BB42204DF76300812BAE /* UISearchBar+fontAndColor.swift in Sources */,
+				3B5E176F2055F6D100682FC5 /* UILabel+flexibleWidth.swift in Sources */,
 				3BA13A38204DE6D800213EB6 /* UIView+informSizeUpdated.swift in Sources */,
 				3BA13A41204DE7C200213EB6 /* UITextView+sendScrollRequest.swift in Sources */,
 				3B87BB24204DF5E500812BAE /* UIColor+string.swift in Sources */,
@@ -597,6 +637,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tipsandtricks.UIExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -620,6 +661,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tipsandtricks.UIExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
