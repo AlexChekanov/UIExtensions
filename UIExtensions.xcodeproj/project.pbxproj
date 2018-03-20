@@ -12,7 +12,6 @@
 		3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */; };
 		3B1D0FE42051BD98006345C9 /* UITextUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */; };
 		3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */; };
-		3B32E9132055FDF900BD25E7 /* GeneralExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */; };
 		3B426D6520509906008CA989 /* UIResizeRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UIResizeRequestDelegate.swift */; };
 		3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6420509905008CA989 /* UIScrollRequestDelegate.swift */; };
 		3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D7720509E4F008CA989 /* UIKeyboardResizeDelegate.swift */; };
@@ -40,6 +39,7 @@
 		3B87BB43204DF76300812BAE /* UILabel+CATextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB3F204DF76200812BAE /* UILabel+CATextLayer.swift */; };
 		3B87BB44204DF76300812BAE /* UIStoryboard+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB40204DF76200812BAE /* UIStoryboard+extensions.swift */; };
 		3B87BB45204DF76300812BAE /* UITableViewController+scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB41204DF76200812BAE /* UITableViewController+scroll.swift */; };
+		3B9F8349205C335B00D2B739 /* GeneralExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9F8346205C335400D2B739 /* GeneralExtensions.framework */; };
 		3BA13A22204DE5E300213EB6 /* UIExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA13A18204DE5E200213EB6 /* UIExtensions.framework */; };
 		3BA13A27204DE5E300213EB6 /* UIExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A26204DE5E300213EB6 /* UIExtensionsTests.swift */; };
 		3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13A32204DE62700213EB6 /* UIView+fromNib.swift */; };
@@ -54,6 +54,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3B9F8345205C335400D2B739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9F8340205C335400D2B739 /* GeneralExtensions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B87BA48204DF24300812BAE;
+			remoteInfo = GeneralExtensions;
+		};
+		3B9F8347205C335400D2B739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9F8340205C335400D2B739 /* GeneralExtensions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B87BA51204DF24300812BAE;
+			remoteInfo = GeneralExtensionsTests;
+		};
 		3BA13A23204DE5E300213EB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3BA13A0F204DE5E200213EB6 /* Project object */;
@@ -97,6 +111,8 @@
 		3B87BB3F204DF76200812BAE /* UILabel+CATextLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+CATextLayer.swift"; sourceTree = "<group>"; };
 		3B87BB40204DF76200812BAE /* UIStoryboard+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+extensions.swift"; sourceTree = "<group>"; };
 		3B87BB41204DF76200812BAE /* UITableViewController+scroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewController+scroll.swift"; sourceTree = "<group>"; };
+		3B9F833F205C332F00D2B739 /* GeneralExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeneralExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9F8340205C335400D2B739 /* GeneralExtensions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GeneralExtensions.xcodeproj; path = ../GeneralExtensions/GeneralExtensions.xcodeproj; sourceTree = "<group>"; };
 		3BA13A18204DE5E200213EB6 /* UIExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA13A1C204DE5E300213EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA13A21204DE5E300213EB6 /* UIExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B32E9132055FDF900BD25E7 /* GeneralExtensions.framework in Frameworks */,
+				3B9F8349205C335B00D2B739 /* GeneralExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +165,14 @@
 			path = UIPickerView;
 			sourceTree = "<group>";
 		};
+		3B07A91A2059EB8F00502DD5 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B87BB29204DF6B300812BAE /* UIViewController+alerts.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		3B177E5B20532A2F00C6835B /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +192,8 @@
 		3B426D582050981B008CA989 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B9F8340205C335400D2B739 /* GeneralExtensions.xcodeproj */,
+				3B9F833F205C332F00D2B739 /* GeneralExtensions.framework */,
 				3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */,
 			);
 			name = Frameworks;
@@ -264,6 +290,15 @@
 			path = UITableViewController;
 			sourceTree = "<group>";
 		};
+		3B9F8341205C335400D2B739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9F8346205C335400D2B739 /* GeneralExtensions.framework */,
+				3B9F8348205C335400D2B739 /* GeneralExtensionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3BA13A0E204DE5E200213EB6 = {
 			isa = PBXGroup;
 			children = (
@@ -287,9 +322,8 @@
 			isa = PBXGroup;
 			children = (
 				3BA13A1C204DE5E300213EB6 /* Info.plist */,
-				3B07A9132059E25A00502DD5 /* UIPickerView */,
-				3B07A9102059E20E00502DD5 /* UIAlertController */,
 				3B426D672050990D008CA989 /* Protocols */,
+				3B07A9102059E20E00502DD5 /* UIAlertController */,
 				3B177E5B20532A2F00C6835B /* UIButton */,
 				3B87BB25204DF5EC00812BAE /* UIColor */,
 				3B177E5C20532A3700C6835B /* UIFont */,
@@ -297,6 +331,7 @@
 				3B87BB46204DF76600812BAE /* UILabel */,
 				3B87BB3C204DF70E00812BAE /* UINavigationBar */,
 				3B87BB3D204DF74900812BAE /* UINavigationController */,
+				3B07A9132059E25A00502DD5 /* UIPickerView */,
 				3BA13A54204DEBDD00213EB6 /* UIResponder */,
 				3B87BB47204DF76E00812BAE /* UISearchBar */,
 				3B87BB48204DF81200812BAE /* UIStoryboard */,
@@ -305,6 +340,7 @@
 				3B87BB49204DF82D00812BAE /* UITableViewController */,
 				3BA13A42204DE7EB00213EB6 /* UITextView */,
 				3BA13A34204DE62C00213EB6 /* UIView */,
+				3B07A91A2059EB8F00502DD5 /* UIViewController */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -332,7 +368,6 @@
 				3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */,
 				3BA13A35204DE69E00213EB6 /* UIView+layoutAttach.swift */,
 				3B5E17642055F5B000682FC5 /* UIViewl+shake.swift */,
-				3B87BB29204DF6B300812BAE /* UIViewController+alerts.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -442,6 +477,12 @@
 			mainGroup = 3BA13A0E204DE5E200213EB6;
 			productRefGroup = 3BA13A19204DE5E200213EB6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B9F8341205C335400D2B739 /* Products */;
+					ProjectRef = 3B9F8340205C335400D2B739 /* GeneralExtensions.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3BA13A17204DE5E200213EB6 /* UIExtensions */,
@@ -449,6 +490,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3B9F8346205C335400D2B739 /* GeneralExtensions.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GeneralExtensions.framework;
+			remoteRef = 3B9F8345205C335400D2B739 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B9F8348205C335400D2B739 /* GeneralExtensionsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GeneralExtensionsTests.xctest;
+			remoteRef = 3B9F8347205C335400D2B739 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3BA13A16204DE5E200213EB6 /* Resources */ = {

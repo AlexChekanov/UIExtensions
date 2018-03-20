@@ -1,44 +1,22 @@
 import UIKit
 import GeneralExtensions
+import Styles
 
 public extension UILabel {
     
     convenience init(
         text: String,
-        font: UIFont = UIFont.preferredFont(forTextStyle: UIFontTextStyle.body),
-        
+        style: TextStyle = .normal,
         maximumHeight: CGFloat,
-        
-        lineBreakMode: NSLineBreakMode = .byWordWrapping,
-        
-        constantElementsWidth: CGFloat,
-        acceptableWidthForTextOfOneLine: CGFloat, //When we don't want the text to be shrinked
-        
-        foregroundColor: UIColor = .black,
-        backgroundColor: UIColor = .white,
-        textAlignment: NSTextAlignment = .natural,
-        userInteractionEnabled:Bool?
+        constantElementsWidth: CGFloat = 0,
+        acceptableWidthForTextOfOneLine: CGFloat = 100 //When we don't want the text to be shrinked
         )
     {
-        
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.lineBreakMode = lineBreakMode
-        paragraphStyle.allowsDefaultTighteningForTruncation = true
-        paragraphStyle.hyphenationFactor = 0
-        paragraphStyle.alignment = textAlignment
-        
-        let attributes: [NSAttributedStringKey:Any] = [
-            NSAttributedStringKey.font: font,
-            NSAttributedStringKey.foregroundColor: foregroundColor,
-            NSAttributedStringKey.backgroundColor: backgroundColor,
-            NSAttributedStringKey.paragraphStyle: paragraphStyle,
-            NSAttributedStringKey.baselineOffset: 0
-        ]
-        
-        let attributedString = NSAttributedString(string: text, attributes: attributes)
+        let attributedString = NSMutableAttributedString.init(string: text)
+        attributedString.style = style
         
         let boundingSize = attributedString.boundingRect(
-            with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: font.lineHeight),
+            with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: style.font?.lineHeight ?? 12),
             options: [NSStringDrawingOptions.usesLineFragmentOrigin],
             context: nil).size
         
@@ -55,7 +33,7 @@ public extension UILabel {
                 
             } else {
                 
-                let minimalWidth = text.longestWord(attributes)?.size(withAttributes: attributes).width ?? maximalLabelWidth
+                let minimalWidth = text.longestWord(style.attributes)?.size(withAttributes: style.attributes).width ?? maximalLabelWidth
                 
                 // Height calculation
                 var flexibleWidth = maximalLabelWidth
@@ -116,7 +94,7 @@ public extension UILabel {
                     
                 }
                 
-                if (jumpWidths.count > 1) && (optimalWidth/jumpWidths.last! >= 0.625) {
+                if (jumpWidths.count > 1) && (optimalWidth < acceptableWidthForTextOfOneLine) && (optimalWidth/jumpWidths.last! >= 0.625) {
                     optimalWidth = jumpWidths.last!
                     optimalHeight = jumpHeights.last!
                 }
@@ -129,9 +107,8 @@ public extension UILabel {
         
         self.init(frame: frame_)
         
-        self.attributedText = NSAttributedString(string: text, attributes: attributes)
+        self.attributedText = NSAttributedString(string: text, attributes: style.attributes)
         self.adjustsFontSizeToFitWidth = false
         self.numberOfLines = 0
-        self.isUserInteractionEnabled = userInteractionEnabled ?? false
     }
 }

@@ -12,11 +12,11 @@ public extension UIView {
         
         let wiggleBounceY = 1.0
         let wiggleBounceDuration = 0.12
-        let wiggleBounceDurationVariance = 0.024
+        let wiggleBounceDurationVariance = 0.0//0.024
         
         let wiggleRotateAngle = 0.02
         let wiggleRotateDuration = 0.10
-        let wiggleRotateDurationVariance = 0.024
+        let wiggleRotateDurationVariance = 0.0//0.024
         
         func randomize(interval: TimeInterval, withVariance variance: Double) -> Double{
             let random = (Double(arc4random_uniform(1000)) - 500.0) / 500.0
