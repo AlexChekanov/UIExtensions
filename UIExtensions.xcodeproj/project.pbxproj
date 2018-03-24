@@ -10,6 +10,7 @@
 		3B07A90F2059E20500502DD5 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A90E2059E20500502DD5 /* UIAlertController.swift */; };
 		3B07A9122059E25000502DD5 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A9112059E25000502DD5 /* UIPickerView.swift */; };
 		3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */; };
+		3B1BF0322061FF6500DB5701 /* UIView+dashedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF0312061FF6500DB5701 /* UIView+dashedBorder.swift */; };
 		3B1D0FE42051BD98006345C9 /* UITextUpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */; };
 		3B1D0FE62051D009006345C9 /* UIFont+enumPreffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */; };
 		3B426D6520509906008CA989 /* UIResizeRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B426D6320509905008CA989 /* UIResizeRequestDelegate.swift */; };
@@ -25,7 +26,7 @@
 		3B87BB23204DF5E500812BAE /* UIColor+appColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB1F204DF5E500812BAE /* UIColor+appColors.swift */; };
 		3B87BB24204DF5E500812BAE /* UIColor+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB20204DF5E500812BAE /* UIColor+string.swift */; };
 		3B87BB2D204DF6B300812BAE /* UIView+globalPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB26204DF6B200812BAE /* UIView+globalPosition.swift */; };
-		3B87BB2E204DF6B300812BAE /* UIView+fadeInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB27204DF6B200812BAE /* UIView+fadeInOut.swift */; };
+		3B87BB2E204DF6B300812BAE /* UIView+showHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB27204DF6B200812BAE /* UIView+showHide.swift */; };
 		3B87BB2F204DF6B300812BAE /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB28204DF6B300812BAE /* UIView+cornerRadius.swift */; };
 		3B87BB30204DF6B300812BAE /* UIViewController+alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB29204DF6B300812BAE /* UIViewController+alerts.swift */; };
 		3B87BB31204DF6B300812BAE /* UIView+copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BB2A204DF6B300812BAE /* UIView+copy.swift */; };
@@ -81,6 +82,7 @@
 		3B07A90E2059E20500502DD5 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		3B07A9112059E25000502DD5 /* UIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerView.swift; sourceTree = "<group>"; };
 		3B177E5920532A1500C6835B /* UIButton+alignVertically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+alignVertically.swift"; sourceTree = "<group>"; };
+		3B1BF0312061FF6500DB5701 /* UIView+dashedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+dashedBorder.swift"; sourceTree = "<group>"; };
 		3B1D0FE32051BD98006345C9 /* UITextUpdateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextUpdateDelegate.swift; sourceTree = "<group>"; };
 		3B1D0FE52051D009006345C9 /* UIFont+enumPreffered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+enumPreffered.swift"; sourceTree = "<group>"; };
 		3B32E9142055FDF900BD25E7 /* GeneralExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeneralExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +99,7 @@
 		3B87BB1F204DF5E500812BAE /* UIColor+appColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+appColors.swift"; sourceTree = "<group>"; };
 		3B87BB20204DF5E500812BAE /* UIColor+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+string.swift"; sourceTree = "<group>"; };
 		3B87BB26204DF6B200812BAE /* UIView+globalPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+globalPosition.swift"; sourceTree = "<group>"; };
-		3B87BB27204DF6B200812BAE /* UIView+fadeInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+fadeInOut.swift"; sourceTree = "<group>"; };
+		3B87BB27204DF6B200812BAE /* UIView+showHide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+showHide.swift"; sourceTree = "<group>"; };
 		3B87BB28204DF6B300812BAE /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
 		3B87BB29204DF6B300812BAE /* UIViewController+alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alerts.swift"; sourceTree = "<group>"; };
 		3B87BB2A204DF6B300812BAE /* UIView+copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+copy.swift"; sourceTree = "<group>"; };
@@ -362,7 +364,8 @@
 				3BA13A3E204DE79100213EB6 /* UIView+checkNotificationAddressee.swift */,
 				3B87BB2A204DF6B300812BAE /* UIView+copy.swift */,
 				3B87BB28204DF6B300812BAE /* UIView+cornerRadius.swift */,
-				3B87BB27204DF6B200812BAE /* UIView+fadeInOut.swift */,
+				3B1BF0312061FF6500DB5701 /* UIView+dashedBorder.swift */,
+				3B87BB27204DF6B200812BAE /* UIView+showHide.swift */,
 				3BA13A32204DE62700213EB6 /* UIView+fromNib.swift */,
 				3B87BB26204DF6B200812BAE /* UIView+globalPosition.swift */,
 				3BA13A37204DE6D800213EB6 /* UIView+informSizeUpdated.swift */,
@@ -533,6 +536,7 @@
 				3B87BB44204DF76300812BAE /* UIStoryboard+extensions.swift in Sources */,
 				3B177E5A20532A1500C6835B /* UIButton+alignVertically.swift in Sources */,
 				3B426D6620509906008CA989 /* UIScrollRequestDelegate.swift in Sources */,
+				3B1BF0322061FF6500DB5701 /* UIView+dashedBorder.swift in Sources */,
 				3B87BB19204DF55700812BAE /* UIImage+base64.swift in Sources */,
 				3B07A90F2059E20500502DD5 /* UIAlertController.swift in Sources */,
 				3B426D7820509E4F008CA989 /* UIKeyboardResizeDelegate.swift in Sources */,
@@ -541,7 +545,7 @@
 				3B87BB2F204DF6B300812BAE /* UIView+cornerRadius.swift in Sources */,
 				3B87BB1A204DF55700812BAE /* UIImage+color.swift in Sources */,
 				3B87BB21204DF5E500812BAE /* UIColor+adjust.swift in Sources */,
-				3B87BB2E204DF6B300812BAE /* UIView+fadeInOut.swift in Sources */,
+				3B87BB2E204DF6B300812BAE /* UIView+showHide.swift in Sources */,
 				3BA13A3D204DE74F00213EB6 /* UITableView+scrollToRect.swift in Sources */,
 				3B87BB30204DF6B300812BAE /* UIViewController+alerts.swift in Sources */,
 				3BA13A33204DE62700213EB6 /* UIView+fromNib.swift in Sources */,
